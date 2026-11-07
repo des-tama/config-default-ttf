@@ -1,0 +1,189 @@
+{
+  "version": "testing-config",
+  "brandPoweredText": "Powered By Estawira Space",
+  "gameplay": {
+    "maxCapacity": 5,
+    "lives": 3,
+    "overloadTimeLimit": 4,
+    "spawnIntervalBase": 70,
+    "spawnIntervalMin": 40,
+    "smallCargoRatio": 0.35,
+    "assistChance": 0.2,
+    "singleCorrectEvery": 3,
+    "singleCorrectChance": 0.34,
+    "singleSpawnScale": 1.7,
+    "maxRevivesPerRun": 1,
+    "reviveOfferSec": 6
+  },
+  "modes": {
+    "survival": {
+      "levelMin": 0,
+      "levelMax": 999999
+    },
+    "easy": {
+      "levelMin": 1,
+      "levelMax": 10
+    },
+    "medium": {
+      "levelMin": 21,
+      "levelMax": 35
+    },
+    "hard": {
+      "levelMin": 36,
+      "levelMax": 999999
+    },
+    "time_attack": {
+      "levelMin": 36,
+      "levelMax": 999999,
+      "timeLimitSec": 90
+    }
+  },
+  "levels": [
+    {
+      "levelMin": 1,
+      "levelMax": 10,
+      "speedMin": 1.3,
+      "speedMax": 1.6,
+      "tier": 1,
+      "formulaTypes": [
+        "direct",
+        "addition",
+        "subtraction"
+      ]
+    },
+    {
+      "levelMin": 11,
+      "levelMax": 20,
+      "speedMin": 1.7,
+      "speedMax": 2.1,
+      "tier": 2,
+      "formulaTypes": [
+        "addition_medium",
+        "subtraction_medium",
+        "multiplication_easy",
+        "division_easy",
+        "sqrt_power_easy",
+        "two_operations_easy",
+        "percent",
+        "roman",
+        "unit_convert"
+      ]
+    },
+    {
+      "levelMin": 21,
+      "levelMax": 35,
+      "speedMin": 2.2,
+      "speedMax": 3.2,
+      "tier": 3,
+      "formulaTypes": [
+        "four_ops_complex",
+        "four_ops_complex",
+        "series",
+        "time_add",
+        "inequality"
+      ]
+    },
+    {
+      "levelMin": 36,
+      "levelMax": 999999,
+      "speedMin": 3.2,
+      "speedMax": 3.7,
+      "tier": 4,
+      "formulaTypes": [
+        "infinite_heavy",
+        "infinite_heavy",
+        "percent",
+        "series",
+        "time_add",
+        "inequality",
+        "roman",
+        "unit_convert"
+      ]
+    }
+  ],
+  "ui": {
+    "monitor": {
+      "xOffset": -4,
+      "yOffset": 88,
+      "widthOffset": 34,
+      "height": 120,
+      "fontSizeDefault": 30,
+      "fontSizeMedium": 24,
+      "fontSizeSmall": 18
+    }
+  },
+  "assets": {
+    "roket": {
+      "url": "",
+      "width": 170,
+      "height": 285
+    },
+    "items": {
+      "defaultWidth": 60,
+      "defaultHeight": 48,
+      "list": {
+        "panda": {},
+        "sapi": {},
+        "kambing": {},
+        "ayam": {},
+        "kucing": {},
+        "gajah": {},
+        "kelinci": {},
+        "anjing": {},
+        "koala": {},
+        "piala": {},
+        "mobil": {},
+        "bohlam": {},
+        "topi": {}
+      }
+    }
+  },
+  "audio": {
+    "masterVolume": 0.75,
+    "bgmVolume": 0.55,
+    "sfxVolume": 0.6
+  },
+  "ads": {
+    "enabled": true,
+    "pauseAdDelaySec": 2,
+    "pauseAdMinIntervalSec": 180,
+    "gameOverAd": true,
+    "gameOverEvery": 1,
+    "gameOverMinGapSec": 45,
+    "reviveEnabled": true,
+    "minGapBetweenAdsSec": 60
+  },
+  "skip": {
+    "enabled": true,
+    "maxPerRun": 3,
+    "adEnabled": true,
+    "cooldownSec": 0,
+    "modes": {
+      "survival": true,
+      "easy": true,
+      "medium": true,
+      "hard": true
+    }
+  },
+  "analytics": {
+    "enabled": true
+  },
+  "rank": {
+    "enabled": false,
+    "baseUrl": ""
+  },
+  "share": {
+    "imageUrl": "",
+    "text": "I scored {score} in TipTop Fit ({mode})! Can you beat me ?",
+    "link": "",
+    "layout": {
+      "modeY": 0.52,
+      "scoreX": 0.5,
+      "scoreY": 0.6,
+      "timeX": 0.5,
+      "timeY": 0.7,
+      "textColor": "#FFFFFF",
+      "fontScale": 1.0
+    }
+  }
+}
